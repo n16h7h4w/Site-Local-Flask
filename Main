@@ -1,0 +1,25 @@
+#1 ouvre un cmd es executé la commande suivante pip install flask puis a la place de return "test" mettez se que vous voulez en port aussi après ouvret le avec python et vous aurez un url copie colle le dans google et voila :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+import flask 
+
+
+server = flask.Flask(__name__)
+
+
+@server.route('/')
+def index():
+    return "Test"
+
+server.run(port=356)
